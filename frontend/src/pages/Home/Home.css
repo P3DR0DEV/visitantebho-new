@@ -1,0 +1,28 @@
+.homeContainer {
+  max-width: 1000px;
+  margin: 2.5em auto;
+}
+
+.flex-title-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-title-div h2 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.flex-title-div h3 {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #282d35;
+}
+
+.empty-data {
+  margin-top: 3rem;
+  text-align: center;
+  color: #dc3545;
+  font-weight: 400;
+}

@@ -1,0 +1,33 @@
+.info-container {
+  margin-top: 1.3em;
+  border: 1px solid #dedfe1;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info-container-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  align-items: center;
+}
+
+.info-container h3 {
+  color: #282d35;
+  font-weight: 400;
+}
+
+.info-container h4 {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.info-container-content-nome {
+  white-space: nowrap;
+  width: 65%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

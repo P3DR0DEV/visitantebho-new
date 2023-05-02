@@ -1,0 +1,38 @@
+.notAllowed-container {
+  margin: 30px auto;
+  max-width: 1000px;
+}
+
+.notAllowed-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notAllowed-p {
+  font-size: 1.3em;
+  margin-top: 50px;
+}
+
+.btn-return {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #0062ff;
+  padding: 10px;
+  color: #fff;
+}
+
+.btn-return:hover {
+  padding: 15px;
+  transition-duration: 0.5s;
+  background-color: #0062ffc0;
+}
+
+.notAllowed-img {
+  position: absolute;
+  right: 30px;
+  max-width: 120px;
+}
