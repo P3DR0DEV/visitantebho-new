@@ -9,8 +9,8 @@
     "clean": "rimraf ./dist",
     "build": "npm run clean && tsc && tsc-alias",
     "start": "node src",
-    "local": "ts-node src",
-    "local:watch": "nodemon src -e ts,json --exec 'npm run local'"
+    "local": "ts-node server.ts",
+    "local:watch": "nodemon server.ts ,json --exec 'npm run local'"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",

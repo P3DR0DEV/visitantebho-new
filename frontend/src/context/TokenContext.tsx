@@ -4,20 +4,20 @@ import {
   ReactNode,
   Dispatch,
   SetStateAction,
-} from "react";
+} from "react"
 
 interface ITokenContext {
-  token: string;
-  setToken: Dispatch<SetStateAction<string>>;
+  token: string
+  setToken: Dispatch<SetStateAction<string>>
 }
 
 export const TokenContext = createContext<ITokenContext>({
   token: "",
-  setToken: () => {},
-});
+  setToken: () => {}, //eslint-disable-line
+})
 
 function TokenContextProvider({ children }: { children: ReactNode }) {
-  const [token, setToken] = useState("");
+  const [token, setToken] = useState("")
   return (
     <TokenContext.Provider
       value={{
@@ -27,6 +27,6 @@ function TokenContextProvider({ children }: { children: ReactNode }) {
     >
       {children}
     </TokenContext.Provider>
-  );
+  )
 }
-export default TokenContextProvider;
+export default TokenContextProvider

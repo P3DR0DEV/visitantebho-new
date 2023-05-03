@@ -1,12 +1,12 @@
 interface CardProps {
-  user: ResponseApi;
+  user: ResponseApi
 }
-import { ResponseApi } from "@/types";
-import "./Card.css";
+import { ResponseApi } from "@/types"
+import "./Card.css"
 
 export function Card({ user }: CardProps) {
-  const { STAMP, HOST, NOME, CPF } = user;
-  const data = STAMP.split(" ");
+  const { STAMP, HOST, NOME, CPF } = user
+  const data = STAMP.split(" ")
   return (
     <div className="info-container">
       <div className="info-container-content">
@@ -30,5 +30,5 @@ export function Card({ user }: CardProps) {
         <h4>{data[2]}</h4>
       </div>
     </div>
-  );
+  )
 }
